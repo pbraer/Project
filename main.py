@@ -1,3 +1,4 @@
+import math
 # Statistics for 2019
 Dead = float(1800700)
 Born = float(1461000)
@@ -9,6 +10,6 @@ BornDaily = Born / 365
 EmigratedDaily = Emigrated / 365
 NewcomerDaily = Newcomer / 365
 # Calculation
-PopulationIn2020 = float(144500000)
+PopulationIn2015 = float(146300000)
 Year = int(input())
-print(PopulationIn2020 + (2020 - Year) * (DeadDaily + EmigratedDaily - BornDaily - NewcomerDaily))
+print(round(PopulationIn2015 + (2015 - Year) * (DeadDaily + EmigratedDaily - BornDaily - NewcomerDaily)))
